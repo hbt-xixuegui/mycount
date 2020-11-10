@@ -1,12 +1,11 @@
 package f1
 
-type Sansi struct {
-	TempCurrentHeight uint64
-	TempCurrentTotalBlock uint64
-	TempCurrentTotalCount uint64
-
-	TempF03176TotalCount uint64
-	TempF03176TotalBlock uint64
-}
 
 var TempMinerArray  = make(map[string]string)
+
+var TempCurrentHeight uint64
+var TempCurrentTotalBlock uint64
+var TempCurrentTotalCount uint64
+
+var TempF03176TotalCount uint64
+var TempF03176TotalBlock uint64

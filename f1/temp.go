@@ -1,4 +1,4 @@
-package mycount
+package f1
 
 type Sansi struct {
 	TempCurrentHeight uint64
